@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Transação</title>
+    <link href="../style_geral/newcss.css" rel="stylesheet" type="text/css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Transação</h1>
+        <form action="../TransacaoCad/TransacaoCad.jsp" method="post">
+            <label>ID do Cliente:</label>
+            <input type="number" name="clienteId" required>
+
+            <label>ID do Vendedor:</label>
+            <input type="number" name="vendedorId" required>
+
+            <label>ID do Produto:</label>
+            <input type="number" name="produtoId" required>
+
+            <label>Quantidade:</label>
+            <input type="number" name="quantidade" required>
+
+            <label>Valor Total:</label>
+            <input type="text" name="valorTotal" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link href="../CSS_Global/vendedor_global.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Cadastro de Vendedores</h1>
+        
+        <form action="../CadastrarVendedor/CadastroVendedor.jsp" method="post">
+             ID: <input type="number" name="id" required><br>
+            <label>Nome:</label><input type="text" name="nome" required>
+            <label>CPF:</label><input type="text" name="cpf" required>
+            <label>Saldo:</label><input type="number" name="saldo" step="0.01" required>
+            <label>Email:</label><input type="email" name="email" required>
+            <label>Telefone:</label><input type="text" name="telefone">
+            <label>Endereço:</label><input type="text" name="endereco">
+            <label>Cidade:</label><input type="text" name="cidade">
+            <label>Estado:</label><input type="text" name="estado">
+            <label>CEP:</label><input type="text" name="cep">
+            <label>CNPJ:</label><input type="text" name="cnpj">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </body>
+</html>

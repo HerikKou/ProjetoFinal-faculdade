@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 de nov. de 2025, 13:37:11
+    Author     : herik
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f4f8;
+  color: #222;
+  padding: 40px;
+}
+
+h1, h2, h3 {
+  color: #0a3d62;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #0a3d62;
+  outline: none;
+}
+
+button, input[type="submit"] {
+  background: #0a3d62;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background: #145a8d;
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #0a3d62;
+  color: #fff;
+}
+
+tr:hover {
+  background: #f1f7ff;
+}
+
+a {
+  color: #0a3d62;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #145a8d;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
